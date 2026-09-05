@@ -1,0 +1,16 @@
+﻿target/
+test-output/
+*.class
+*.log
+*.tmp
+
+# IDE files
+.settings/
+.classpath
+.project
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
