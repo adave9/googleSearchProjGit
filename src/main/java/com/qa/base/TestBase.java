@@ -14,10 +14,6 @@ public class TestBase {
     @BeforeMethod
     public void setUp() {
         driver = new ChromeDriver();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless=new");
-        options.addArguments("--window-size=1920,1080");
-        WebDriver driver = new ChromeDriver(options);
         
         driver.manage().window().maximize();
         driver.get("https://www.google.com");
