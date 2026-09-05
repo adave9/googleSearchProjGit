@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.qa.base.TestBase"/>
+
       <class name="com.qa.tests.GoogleSearchTest"/>
     </classes>
   </test> <!-- Test -->
